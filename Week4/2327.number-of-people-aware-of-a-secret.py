@@ -20,6 +20,3 @@ class Solution:
             n -= 1
 
         return sum(forgetQueue) % mod
-
-
-print(Solution().peopleAwareOfSecret(4, 1, 3))
